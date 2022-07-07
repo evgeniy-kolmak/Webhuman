@@ -1,0 +1,84 @@
+/* HEADER HERO */
+
+.hero {
+  position: relative;
+
+}
+
+.set-background {
+  border: 67px solid #00C4F0;
+  filter: drop-shadow(0px 0px 152px rgba(0, 196, 240, 0.42));
+  width: 575px;
+  height: 575px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.hero-image {
+  position: absolute;
+  left: 30px;
+  bottom: -70px;
+  z-index: 2;
+}
+
+
+.hard-skills {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 100%;
+  padding: 15px;
+  fill: #000;
+  transition: all .4s ease 0s;
+
+}
+
+
+.sass {
+  top: 100px;
+  right: 490px;
+  z-index: 2;
+}
+
+.sass:hover {
+  background-color: #cc6699;
+  fill: #fff;
+  transform: rotate(25deg);
+}
+
+.figma {
+  bottom: 215px;
+  right: 525px;
+  z-index: 2;
+}
+
+.figma:hover {
+  background-color: #8652da;
+  fill: #fff;
+  transform: rotate(25deg);
+}
+
+.js {
+  bottom: 70px;
+  right: 480px;
+  z-index: 2;
+}
+
+.js:hover {
+  background-color: #FFD700;
+  fill: #fff;
+  transform: rotate(25deg);
+}
+
+.react {
+  top: 25px;
+  left: 435px;
+  z-index: 2;
+}
+
+.react:hover {
+  background-color: #61DAFB;
+  fill: #fff;
+  transform: rotate(25deg);
+}

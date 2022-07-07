@@ -1,0 +1,52 @@
+@keyframes yellow360 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 30px #e7dc3c);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes blue360 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 30px #78f1fa);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes white360 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 30px rgb(255, 227, 227));
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes activelinks {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}

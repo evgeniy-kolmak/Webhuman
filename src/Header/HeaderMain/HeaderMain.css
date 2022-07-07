@@ -1,0 +1,55 @@
+/* HEADER MAIN */
+
+.main {
+  width: 447px;
+}
+
+.hello {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.main-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 82px;
+  text-transform: uppercase;
+  margin: 27px 0;
+}
+
+.main-description {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 30px;
+}
+
+
+
+.main-button {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  padding: 14px 38px;
+  background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+  box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+  border-radius: 6px;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all .4s ease 0s;
+}
+
+.main-button:hover {
+  box-shadow: 0px 5px 17px rgba(226, 158, 0, 0.78);
+  transition: all .4s ease 0s;
+  transform: scale(1.1);
+
+}

@@ -1,0 +1,23 @@
+/* FOOTER */
+
+.footer {
+  padding: 30px 0 20px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  fill: #414141;
+  width: 28px;
+  height: 28px;
+  transition: all .4s ease 0s;
+  margin-right: 15px;
+}
+
+.copyright {
+  color: #cccccc;
+}
