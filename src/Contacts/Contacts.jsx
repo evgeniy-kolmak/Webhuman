@@ -9,8 +9,8 @@ export default function Contacts() {
         <div className="contacts-wrapper">
           <div className="contact">
             <h3 className="contact-title">Связаться со мной</h3>
-            <span className="call">Позвонить<a className="contact-link" href="tel:+375297413900">+375 (29) 741-39-00</a></span>
-            <span className="write" >Написать на Email:<a className="contact-link" href="mailto:evgeniy.kolmak@gmail.com">evgeniy.kolmak@gmail.com</a></span>
+            <span className="call">Позвонить:<a className="contact-link" href="tel:+375297413900">+375 (29) 741-39-00</a></span>
+            <span className="write" >Написать:<a className="contact-link" href="mailto:evgeniy.kolmak@gmail.com">evgeniy.kolmak@gmail.com</a></span>
           </div>
           <div className="contact-wrapper">
             <Form />

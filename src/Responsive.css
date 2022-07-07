@@ -95,7 +95,8 @@
     top: 670px;
   }
 
-  .section-title {
+  .section-title,
+  .menu-title {
     font-size: 32px;
 
   }
@@ -473,7 +474,16 @@
     max-width: 85%;
   }
 
-
+  .download-cv--sidebar {
+    visibility: visible;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #E4E4E4;
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+    opacity: 1;
+  }
 
   .logo {
     width: 28px;
@@ -531,4 +541,369 @@
 }
 
 
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+
+  .bm-burger-button {
+    width: 44px;
+    height: 38px;
+  }
+
+  .hero {
+    margin-right: 0;
+  }
+
+  .social {
+    flex-basis: 25%;
+    transform: translateX(-60%);
+  }
+
+  .hello {
+    font-size: 34px;
+  }
+
+  .main-title {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .main-description {
+    font-size: 16px;
+  }
+
+  .main-button {
+    padding: 12px 36px;
+    font-size: 15px;
+  }
+
+  .set-background {
+    border-width: 33px;
+  }
+
+  .sass {
+    top: -15px;
+    right: 270px;
+  }
+
+  .figma {
+    right: 347px;
+  }
+
+  .hero-image {
+    bottom: -83px;
+  }
+
+  .hard-skills {
+    width: 80px;
+    height: 80px;
+  }
+
+  .section-title,
+  .menu-title {
+    font-size: 30px;
+  }
+
+  .set-white {
+    display: none;
+  }
+
+  .about-me-information {
+    font-size: 16px;
+    padding: 30px;
+    width: 420px;
+  }
+
+  .set-blue {
+    border-width: 25px;
+    width: 300px;
+    height: 300px;
+    right: 159px;
+    top: 660px;
+  }
+
+  .set-yellow {
+    border-width: 20px;
+    width: 250px;
+    height: 250px;
+
+  }
+
+  .portfolio {
+    padding: 80px 0;
+  }
+
+  .contact-title {
+    font-size: 27px;
+    margin-bottom: 18px;
+  }
+
+  .call,
+  .write {
+    margin-bottom: 6px;
+    font-size: 15px;
+  }
+
+  .contact-link {
+    font-size: 17px;
+  }
+
+  .input::placeholder {
+    font-size: 14px;
+  }
+
+  .hero-image-contact {
+    margin: 0;
+    top: 46px;
+  }
+
+  .square {
+    border-width: 22px;
+    width: 220px;
+    height: 220px;
+    bottom: 70px;
+    left: 150px;
+  }
+
+  .square::after {
+    border-width: 10px;
+    width: 100px;
+    height: 100px;
+    right: 250px;
+    bottom: -20px;
+  }
+
+  .square::before {
+    border-width: 5px;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    bottom: 265px;
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+
+}
+
+@media(max-width: 495px) {
+  .social {
+    display: none;
+  }
+
+  .social--sidebar {
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    align-self: center;
+    transform: translateY(-600%);
+  }
+
+  .social-link--sidebar {
+    margin-right: 10px;
+
+
+  }
+
+  .section-title,
+  .menu-title {
+    font-size: 28px;
+  }
+
+  .logo {
+    transform: translateX(150%);
+  }
+
+  .menu-wrapper {
+    justify-content: start;
+  }
+
+  .bm-burger-button {
+    top: 10px;
+  }
+
+  .hello {
+    font-size: 30px;
+  }
+
+  .main {
+    margin-bottom: 90px;
+  }
+
+  .main-title {
+    font-size: 44px;
+    line-height: 52px;
+  }
+
+  .hero-image {
+    width: 220px;
+    top: 14px;
+  }
+
+  .set-background {
+    border-width: 25px;
+    width: 320px;
+    height: 320px;
+  }
+
+  .sass {
+    top: -5px;
+    right: 255px;
+  }
+
+  .figma {
+    top: 100px;
+    right: 300px;
+  }
+
+  .js {
+    top: 210px;
+    right: 280px;
+  }
+
+  .react {
+    top: -10px;
+    left: 250px;
+  }
+
+  .about-me-information {
+    width: 370px;
+  }
+
+
+  .portfolio-item {
+    flex-basis: 60%;
+    margin: 0 0 30px 0;
+  }
+
+  .portfolio-item:last-child {
+    margin: 0;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  .portfolio-button {
+    width: 270px;
+
+  }
+
+  .contacts-button {
+    width: 170px;
+  }
+
+  .input {
+    padding: 10px 10px 10px 30px;
+  }
+
+  .square::after {
+    top: 0;
+    right: 240px;
+
+  }
+
+  .footer-logo {
+    width: 24px;
+    margin-right: 10px;
+  }
+
+  .copyright {
+    font-size: 13px;
+  }
+}
+
+@media(max-width: 395px) {
+
+  .main {
+    max-width: 300px;
+    margin-bottom: 80px;
+  }
+
+  .set-background {
+    border-width: 20px;
+    width: 265px;
+    height: 265px;
+  }
+
+  .hero-image {
+    top: -10px;
+  }
+
+  .hard-skills {
+    width: 70px;
+    height: 70px;
+  }
+
+  .sass {
+    top: -28px;
+    right: 189px;
+  }
+
+  .figma {
+    top: 63px;
+    right: 247px;
+  }
+
+  .js {
+    top: 171px;
+    right: 235px;
+  }
+
+  .react {
+    top: -28px;
+    left: 188px;
+  }
+
+  .about-me-information {
+    width: 300px;
+    padding: 30px;
+  }
+
+  .set-yellow,
+  .set-blue {
+    display: none;
+
+  }
+
+  .portfolio-item {
+    flex-basis: 75%;
+  }
+
+  .call,
+  .write {
+    font-size: 14px;
+  }
+
+  .contact-link {
+    font-size: 16px;
+  }
+
+  .contacts-form {
+    max-width: 320px;
+  }
+
+  .square {
+    border-width: 16px;
+    width: 180px;
+    height: 180px;
+    bottom: 70px;
+    left: 130px;
+  }
+
+  .square::after {
+    border-width: 6px;
+    width: 60px;
+    height: 60px;
+    right: 200px;
+    bottom: -20px;
+  }
+
+  .square::before {
+    display: none;
+  }
+
+  .hero-image-contact {
+    width: 320px;
+    top: 40px;
+  }
+}

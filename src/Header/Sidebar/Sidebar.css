@@ -11,6 +11,7 @@
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #E4E4E4;
+
 }
 
 
@@ -22,7 +23,7 @@
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: #c7bdc4;
 }
 
 /*
@@ -40,6 +41,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: linear-gradient(101.56deg, #303030 1.56%, #1d1d1d 95.55%);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -51,6 +53,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-item-list {
   color: #b8b7ad;
   padding: 0.8em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 /* Individual item */
@@ -67,9 +72,48 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+
 }
 
 
 .bm-item:hover {
   color: #ffffff;
+}
+
+.list-items--sidebar {
+  margin-top: 30px;
+  list-style-type: none;
+  transform: translateY(-70%);
+
+}
+
+.list-item--sidebar {
+  margin-top: 15px;
+}
+
+.menu-title {
+  text-align: right;
+  padding-right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 54px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background:
+    linear-gradient(to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1));
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  width: 123%;
+}
+
+
+.social--sidebar,
+.download-cv--sidebar {
+  visibility: hidden;
+  opacity: 0;
 }

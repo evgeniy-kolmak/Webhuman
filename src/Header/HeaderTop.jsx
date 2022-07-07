@@ -40,7 +40,7 @@ export default function HeaderTop() {
               <use href="/images/sprite.svg#github"></use>
             </svg>
           </a>
-          <a href="https://t.me/evgeniykolmak" target="_blank" >
+          <a className="social-icon" href="https://t.me/evgeniykolmak" target="_blank" >
             <svg className="social-icon">
               <use href="/images/sprite.svg#telegram"></use>
             </svg>
