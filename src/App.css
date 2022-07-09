@@ -1,5 +1,7 @@
 .app {
-  overflow: hidden;
+  overflow-x: hidden;
+  height: 100%;
+
 }
 
 .container {

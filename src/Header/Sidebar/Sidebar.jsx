@@ -1,17 +1,20 @@
+import './Sidebar.css'
 import { slide as Menu } from "react-burger-menu";
 import { Link } from 'react-scroll';
-import './Sidebar.css'
+import { useContext } from 'react';
+import { Context } from '../../Context';
+
 
 export default function Sidebar() {
-
+  const ctx = useContext(Context);
   return (
-    <Menu right customBurgerIcon={<img src="/images/menu.svg" />} width={270} >
+    <Menu isOpen={ctx.isMenuOpen} onStateChange={(state) => ctx.stateChangeHandler(state)} right customBurgerIcon={<img src="/images/menu.svg" />} width={270} >
       <h2 className="menu-title">Меню</h2>
       <ul className="list-items--sidebar">
-        <li className="list-item--sidebar"><Link activeClass="link--sidebar" to="home" spy={true} smooth={true} duration={500}>Главная</Link></li>
-        <li className="list-item--sidebar"><Link activeClass="link--sidebar" to="about" spy={true} smooth={true} duration={500}>Обо мне</Link></li>
-        <li className="list-item--sidebar"><Link activeClass="link--sidebar" to="portfolio" spy={true} smooth={true} duration={500}>Портфолио</Link></li>
-        <li className="list-item--sidebar"><Link activeClass="link--sidebar" to="contacts" spy={true} smooth={true} duration={500}>Контакты</Link></li>
+        <li className="list-item--sidebar"><Link onClick={ctx.toggleMenu} activeClass="link--sidebar" to="home" spy={true} smooth={true} duration={500}>Главная</Link></li>
+        <li className="list-item--sidebar"><Link onClick={ctx.toggleMenu} activeClass="link--sidebar" to="about" spy={true} smooth={true} duration={500}>Обо мне</Link></li>
+        <li className="list-item--sidebar"><Link onClick={ctx.toggleMenu} activeClass="link--sidebar" to="portfolio" spy={true} smooth={true} duration={500}>Портфолио</Link></li>
+        <li className="list-item--sidebar"><Link onClick={ctx.toggleMenu} activeClass="link--sidebar" to="contacts" spy={true} smooth={true} duration={500}>Контакты</Link></li>
       </ul>
       <div className="social--sidebar">
         <a className="social-link--sidebar" href="https://vk.com/evgeniykolmak" target="_blank" >
