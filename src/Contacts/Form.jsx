@@ -1,10 +1,12 @@
-import { useState } from "react";
+import FormSuccess from "./FormSuccess/FormSuccess";
+import { useState, useRef } from "react";
 import axios from "axios";
 import { Formik } from "formik";
 import * as yup from 'yup';
 
 export default function Form() {
-  const [isSubmitForm, setisSubmitForm] = useState(false)
+  const [isSubmitForm, setisSubmitForm] = useState(!false);
+  const userName = useRef();
   const validationsSchema = yup.object().shape({
     name: yup.string().min(3, 'Имя содержит менее 3 символов').required('Пожалуйста, заполните это поле'),
     email: yup.string().email(' Введите корректный email').required('Пожалуйста, заполните это поле'),
@@ -12,7 +14,6 @@ export default function Form() {
     comment: yup.string().min(10, 'Поле содержит менее 10 символов').max(100, 'Поле содержит более 100 символов')
 
   })
-
 
   return (
     <>
@@ -48,6 +49,7 @@ export default function Form() {
           <form onSubmit={handleSubmit} className={isSubmitForm ? "hidden" : "contacts-form"}>
             <input
               name={'name'}
+              ref={userName}
               onChange={handleChange}
               className="input"
               placeholder="Ваше имя*"
@@ -94,7 +96,7 @@ export default function Form() {
           </form>
         )}
       </Formik>
-
+      <FormSuccess stateForm={isSubmitForm} name={userName} />
     </>
   );
 }

@@ -68,10 +68,8 @@
 }
 
 
-
-
-
-.contacts-form {
+.contacts-form,
+.success-form {
   display: flex;
   flex-direction: column;
   height: 500px;

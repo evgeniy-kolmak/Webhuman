@@ -137,6 +137,11 @@
     bottom: 350px;
   }
 
+  .success-title {
+    font-size: 35px;
+    text-align: center;
+  }
+
 }
 
 @media(max-width: 1024px) {
@@ -425,7 +430,8 @@
 
   }
 
-  .contacts-form {
+  .contacts-form,
+  .success-form {
     align-self: flex-start;
   }
 
@@ -463,6 +469,35 @@
     height: 75px;
     left: -20px;
     bottom: 365px;
+  }
+
+  .success-form {
+    width: 350px;
+  }
+
+  .promocode-wrapper {
+    width: 300px;
+    height: 300px;
+  }
+
+  .promocode-wrapper::after {
+    bottom: -25px;
+    left: 250px;
+  }
+
+  .promocode-wrapper::before {
+    top: -15px;
+    left: -20px
+  }
+
+
+
+  .success-subtitle {
+    font-size: 16px;
+  }
+
+  .promocode {
+    font-size: 30px;
   }
 
 
@@ -651,7 +686,7 @@
   }
 
   .hero-image-contact {
-    margin: 0;
+    margin-top: 30px;
     top: 46px;
   }
 
@@ -682,6 +717,21 @@
   .copyright {
     font-size: 14px;
   }
+
+  .duck {
+    width: 100px;
+    height: 100px;
+  }
+
+  .message {
+    width: 220px;
+  }
+
+  .message-title {
+    font-size: 18px;
+
+  }
+
 
 }
 
@@ -801,6 +851,10 @@
 
   }
 
+  .success-title {
+    font-size: 32px;
+  }
+
   .footer-logo {
     width: 24px;
     margin-right: 10px;
@@ -904,5 +958,32 @@
   .hero-image-contact {
     width: 320px;
     top: 40px;
+  }
+
+  .success-form {
+    width: 320px;
+  }
+
+  .promocode-wrapper {
+    width: 270px;
+    height: 270px;
+  }
+
+  .promocode-wrapper::after,
+  .promocode-wrapper::before {
+    display: none;
+  }
+
+  .success-title {
+    font-size: 30px;
+  }
+
+  .success-subtitle {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .promocode {
+    font-size: 25px;
   }
 }

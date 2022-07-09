@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .footer-logo {
@@ -19,5 +20,44 @@
 }
 
 .copyright {
+  display: flex;
+  align-items: center;
   color: #cccccc;
+  margin-top: 20px;
+}
+
+.message-wrapper {
+  display: flex;
+  margin-bottom: 10px;
+
+}
+
+.message {
+  position: relative;
+  width: 240px;
+  padding: 10px 15px;
+  height: 70px;
+  background: #fff;
+  align-self: flex-start;
+  border-radius: 12px;
+  box-shadow: -10px 15px 5px rgba(0, 0, 0, 0.151);
+}
+
+.message::before {
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #fff;
+  content: '';
+  transform: rotate(135deg);
+  top: 65px;
+  left: 0;
+
+}
+
+.message-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-size: 20px;
+
 }
