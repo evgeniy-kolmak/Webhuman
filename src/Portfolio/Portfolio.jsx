@@ -7,9 +7,8 @@ export default function Portfolio() {
         <div className="portfolio-wrapper">
           <h2 className="section-title">Портфолио</h2>
           <div className="portfolio-items">
-            <div className="portfolio-item">
+            <div className="portfolio-item portfolio-item--game">
               <a target='_blank' className="item-link" href="https://evgeniy-kolmak.github.io/cell-search/">
-                <img className="item-img" src="" alt="" />
                 <div className="portfolio-item-details">
                   <span className="item item-title">Интерактивная браузерная игра</span>
                   <span className="item item-info">Найдите 10 плиток за отведенное время.
@@ -17,18 +16,16 @@ export default function Portfolio() {
                 </div>
               </a>
             </div>
-            <div className="portfolio-item">
+            <div className="portfolio-item portfolio-item--calculator">
               <a target='_blank' className="item-link" href="https://evgeniy-kolmak.github.io/salary-calculator/">
-                <img className="item-img" src="" alt="" />
                 <div className="portfolio-item-details">
                   <span className="item item-title">Локаничный калькулятор зарплаты</span>
                   <span className="item item-info">Надоело сидеть в неведении? Переживать? Ждать расчетный лист? Теперь можно посчитать самому.</span>
                 </div>
               </a>
             </div>
-            <div className="portfolio-item">
+            <div className="portfolio-item portfolio-item--site">
               <a target='_blank' className="item-link" href="https://evgeniy-kolmak.github.io/telegraph/">
-                <img className="item-img" src="" alt="" />
                 <div className="portfolio-item-details">
                   <span className="item item-title">Промо сайт</span>
                   <span className="item item-info">Одна из первых работ в верстке, но такая любимая. не возмонжо было не показать.</span>

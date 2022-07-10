@@ -20,12 +20,31 @@
 }
 
 .portfolio-item {
-  background-color: #a7a4a4;
   width: 350px;
   height: 450px;
   flex-basis: 30%;
   border-radius: 10px;
   box-shadow: -10px 15px 5px rgba(0, 0, 0, 0.151);
+  background-size: contain;
+
+}
+
+.portfolio-item--game {
+  background-image: url(/public/images/portfolio/portfolio-1.png);
+  background-repeat: no-repeat;
+
+
+}
+
+.portfolio-item--calculator {
+  background-image: url(/public/images/portfolio/portfolio-2.png);
+  background-repeat: no-repeat;
+
+}
+
+.portfolio-item--site {
+  background-image: url(/public/images/portfolio/portfolio-3.png);
+  background-repeat: no-repeat;
 
 }
 
