@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 
 .footer-logo {
@@ -31,6 +32,26 @@
   margin-bottom: 10px;
 
 }
+
+.message-wrapper:before {
+  content: '{';
+  font-size: 170px;
+  top: 20px;
+  left: 270px;
+  color: #4e4e4e;
+  position: absolute;
+}
+
+.message-wrapper::after {
+  content: '}';
+  font-size: 170px;
+  top: 20px;
+  right: 240px;
+  color: #414141;
+  position: absolute;
+
+}
+
 
 .message {
   position: relative;

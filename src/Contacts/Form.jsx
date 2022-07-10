@@ -5,7 +5,7 @@ import { Formik } from "formik";
 import * as yup from 'yup';
 
 export default function Form() {
-  const [isSubmitForm, setisSubmitForm] = useState(!false);
+  const [isSubmitForm, setisSubmitForm] = useState(false);
   const userName = useRef();
   const validationsSchema = yup.object().shape({
     name: yup.string().min(3, 'Имя содержит менее 3 символов').required('Пожалуйста, заполните это поле'),

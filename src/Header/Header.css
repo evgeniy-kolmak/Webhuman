@@ -51,6 +51,8 @@
 
 }
 
+
+
 .social {
   display: flex;
   align-items: center;
@@ -128,4 +130,40 @@
   transform: scale(1.1);
   color: #000;
 
+}
+
+.to-top {
+  position: fixed;
+  background: #E4E4E4;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(.1);
+  transition: all .3s ease 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -10px 15px 5px rgba(0, 0, 0, 0.151);
+}
+
+.to-top:hover {
+  background: #dadada;
+}
+
+.to-top--scroll {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+  transition: all .3s ease 0s;
+  z-index: 3;
+}
+
+.to-top-icon {
+  width: 25px;
+  height: 25px;
 }

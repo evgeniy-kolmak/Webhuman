@@ -5,11 +5,9 @@
 }
 
 .hello {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 54px;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
+  display: inline;
+  float: left;
+  margin: 0;
 }
 
 .main-title {
@@ -43,13 +41,59 @@
   text-transform: uppercase;
   border: 0;
   cursor: pointer;
-  transform: scale(1);
   transition: all .4s ease 0s;
 }
 
 .main-button:hover {
-  box-shadow: 0px 5px 17px rgba(226, 158, 0, 0.78);
+  opacity: .9;
   transition: all .4s ease 0s;
-  transform: scale(1.1);
+}
 
+
+.hello-container {
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 54px;
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: -20px;
+  height: 60px;
+  padding: 0 40px;
+  text-transform: uppercase;
+
+}
+
+.hello-container::before {
+  content: '[';
+  left: 0;
+}
+
+.hello-container::after {
+  content: ']';
+  right: 0;
+  ;
+}
+
+.hello-container::before,
+.hello-container::after {
+  position: absolute;
+  top: 0;
+  color: #16a085;
+  font-size: 56px;
+  line-height: 46px;
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.hello-items {
+  margin-top: 0;
+  padding-left: 205px;
+  text-align: left;
+  list-style: none;
+  animation-name: change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }

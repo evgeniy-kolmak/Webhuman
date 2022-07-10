@@ -72,13 +72,14 @@
 .item-title {
   line-height: 1;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .item-info {
   line-height: 1.2;
   margin-top: 5px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 
@@ -118,7 +119,7 @@
   border: 2px solid transparent;
 }
 
-.portfolio-button:hover {
+.btn:hover {
   border: 2px solid #8652da;
   background-color: transparent;
   color: #8652da;
