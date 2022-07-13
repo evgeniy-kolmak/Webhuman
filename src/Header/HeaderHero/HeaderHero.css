@@ -34,17 +34,10 @@
 
 }
 
-
 .sass {
   top: 100px;
   right: 490px;
   z-index: 2;
-}
-
-.sass:hover {
-  background-color: #cc6699;
-  fill: #fff;
-  transform: rotate(25deg);
 }
 
 .figma {
@@ -53,32 +46,14 @@
   z-index: 2;
 }
 
-.figma:hover {
-  background-color: #8652da;
-  fill: #fff;
-  transform: rotate(25deg);
-}
-
 .js {
   bottom: 70px;
   right: 480px;
   z-index: 2;
 }
 
-.js:hover {
-  background-color: #FFD700;
-  fill: #fff;
-  transform: rotate(25deg);
-}
-
 .react {
   top: 25px;
   left: 435px;
   z-index: 2;
-}
-
-.react:hover {
-  background-color: #61DAFB;
-  fill: #fff;
-  transform: rotate(25deg);
 }

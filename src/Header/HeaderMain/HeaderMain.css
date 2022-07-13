@@ -44,10 +44,6 @@
   transition: all .4s ease 0s;
 }
 
-.main-button:hover {
-  opacity: .9;
-  transition: all .4s ease 0s;
-}
 
 
 .hello-container {
@@ -58,7 +54,7 @@
   overflow: hidden;
   position: relative;
   top: 0;
-  left: -20px;
+  left: -5px;
   height: 60px;
   padding: 0 40px;
   text-transform: uppercase;

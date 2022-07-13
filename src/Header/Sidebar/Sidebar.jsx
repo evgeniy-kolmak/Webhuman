@@ -1,7 +1,7 @@
 import './Sidebar.css'
 import { slide as Menu } from "react-burger-menu";
 import { Link } from 'react-scroll';
-import { useContext } from 'react';
+import React, { useContext } from 'react';
 import { Context } from '../../Context';
 
 

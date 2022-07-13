@@ -1,5 +1,6 @@
 import Form from "./Form";
 import './Contacts.css'
+import React from "react";
 
 export default function Contacts() {
   return (
@@ -24,3 +25,4 @@ export default function Contacts() {
     </section>
   );
 }
+

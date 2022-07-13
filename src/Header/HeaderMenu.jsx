@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-export default function Menu() {
+export default function HeaderMenu() {
   return (
     <ul className="list-items">
       <li className="list-item"><Link activeClass="link" to="home" spy={true} smooth={true} duration={500}>Главная</Link></li>

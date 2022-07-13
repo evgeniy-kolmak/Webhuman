@@ -3,9 +3,9 @@ import HeaderMenu from "./HeaderMenu";
 import { Link } from 'react-scroll';
 
 export default function HeaderTop() {
-  const [scroll, setScroll] = useState(0);
+  const [scroll, setScroll] = useState(false);
   const handleScroll = () => {
-    setScroll(window.scrollY);
+    window.scrollY !== 0 ? setScroll(!scroll) : setScroll(scroll);
   };
 
   useEffect(() => {
@@ -15,7 +15,7 @@ export default function HeaderTop() {
 
   return (
     <>
-      <div className={scroll === 0 ? 'menu-wrapper' : 'menu-wrapper menu-sticky'}>
+      <div className={scroll ? 'menu-wrapper menu-sticky' : 'menu-wrapper'}>
         <Link to="home" spy={true} smooth={true} duration={500}>
           <svg className="logo">
             <use href="/images/sprite.svg#logo"></use>
@@ -49,10 +49,10 @@ export default function HeaderTop() {
             </svg>
           </a>
         </div>
-        <a href="#" className="btn download-cv" download>Скачать CV</a>
+        <a href="/images/Resume(Evgeniy_Kolmak)-RU.pdf" className="btn download-cv" download>Скачать CV</a>
       </div>
       <Link to="home" spy={true} smooth={true} duration={500}>
-        <div className={scroll > 50 ? 'to-top--scroll to-top' : 'to-top'}>
+        <div className={scroll ? 'to-top--scroll to-top' : 'to-top'}>
           <svg className="to-top-icon">
             <use href="/images/sprite.svg#to-top"></use>
           </svg>

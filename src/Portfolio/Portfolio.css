@@ -25,7 +25,9 @@
   flex-basis: 30%;
   border-radius: 10px;
   box-shadow: -10px 15px 5px rgba(0, 0, 0, 0.151);
-  background-size: contain;
+  background-size: cover;
+  background-position: top center;
+
 
 }
 
@@ -102,31 +104,6 @@
 }
 
 
-
-.item-link:hover:before,
-.item-link:hover .item {
-  opacity: 1;
-}
-
-.item-link:focus:before,
-.item-link:hover:before {
-  top: 50%;
-}
-
-.item-link:hover .item {
-  top: 0;
-}
-
-.item-link:focus .item-title,
-.item-link:hover .item-title {
-  transition-delay: 0.15s;
-}
-
-.item-link:focus .item-info,
-.item-link:hover .item-info {
-  transition-delay: 0.25s;
-}
-
 .portfolio-button {
   text-decoration: none;
   margin-top: 25px;
@@ -136,10 +113,4 @@
   color: #fff;
   font-size: 20px;
   border: 2px solid transparent;
-}
-
-.btn:hover {
-  border: 2px solid #8652da;
-  background-color: transparent;
-  color: #8652da;
 }

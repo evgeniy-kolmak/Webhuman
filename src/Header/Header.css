@@ -68,12 +68,6 @@
   transition: all .4s ease 0s;
 }
 
-.social-icon:hover {
-  fill: #fff;
-  transition: all .4s ease 0s;
-  transform: translateY(-5px);
-
-}
 
 .social-link {
   text-decoration: none;
@@ -98,11 +92,6 @@
 
 }
 
-.list-item:hover {
-  transition: all .4s ease 0s;
-  color: #ddbc69;
-
-}
 
 
 .link:after {
@@ -123,14 +112,7 @@
 
 }
 
-.download-cv:hover {
-  background-color: #E2A300;
-  transition: all .4s ease 0s;
-  border: 1px solid #E2A300;
-  transform: scale(1.1);
-  color: #000;
 
-}
 
 .to-top {
   position: fixed;
@@ -151,9 +133,7 @@
   box-shadow: -10px 15px 5px rgba(0, 0, 0, 0.151);
 }
 
-.to-top:hover {
-  background: #dadada;
-}
+
 
 .to-top--scroll {
   visibility: visible;
