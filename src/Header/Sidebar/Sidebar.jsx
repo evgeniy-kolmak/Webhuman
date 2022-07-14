@@ -43,7 +43,7 @@ export default function Sidebar() {
           </svg>
         </a>
       </div>
-      <a href="#" className="btn download-cv--sidebar" download>Скачать CV</a>
+      <a href="/images/Resume(Evgeniy_Kolmak)-RU.pdf" className="btn download-cv--sidebar" download>Скачать CV</a>
     </ Menu>
   );
 

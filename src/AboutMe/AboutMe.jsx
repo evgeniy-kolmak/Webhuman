@@ -9,9 +9,9 @@ export default function AboutMe() {
           <span className="set-white"></span>
           <span className="set-yellow"></span>
           <span className="set-blue"></span>
-          <img className=" about-me-photo about-me-photo--1" src="/images/about/photo-1.jpg" alt="photo: photo-face" />
-          <img className=" about-me-photo about-me-photo--2" src="/images/about/photo-2.jpg" alt="photo: photo-face" />
-          <img className=" about-me-photo about-me-photo--3" src="/images/about/photo-3.jpg" alt="photo: photo-face" />
+          <img className=" about-me-photo about-me-photo--1" src="/images/about/photo-1.webp" alt="photo: photo-face" />
+          <img className=" about-me-photo about-me-photo--2" src="/images/about/photo-2.webp" alt="photo: photo-face" />
+          <img className=" about-me-photo about-me-photo--3" src="/images/about/photo-3.webp" alt="photo: photo-face" />
           <p className="about-me-information">
             Всем снова привет! Итак, вы уже знаете, что меня зовут Евгений. Немного о себе: давно не студент, 29 лет,
             фрилансер,

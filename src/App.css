@@ -10,12 +10,14 @@
 }
 
 .btn {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat-Regular', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 21px;
   padding: 15px 45px;
   border-radius: 35px;
+  -webkit-transition: all .4s ease 0s;
+  -o-transition: all .4s ease 0s;
   transition: all .4s ease 0s;
   cursor: pointer;
 }

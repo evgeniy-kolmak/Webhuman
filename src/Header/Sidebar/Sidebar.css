@@ -38,6 +38,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
+  background: -o-linear-gradient(348.44deg, #303030 1.56%, #1d1d1d 95.55%);
   background: linear-gradient(101.56deg, #303030 1.56%, #1d1d1d 95.55%);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
@@ -53,8 +54,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-item-list {
   color: #b8b7ad;
   padding: 0.8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   /* justify-content: space-between; */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -65,6 +71,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
   margin-bottom: 10px;
   text-align: left;
   text-decoration: none;
+  -webkit-transition: color 0.2s;
+  -o-transition: color 0.2s;
   transition: color 0.2s;
 }
 
@@ -95,6 +103,17 @@ Note: Beware of modifying this element as it can break the animations - you shou
   line-height: 54px;
   color: #ffffff;
   text-transform: uppercase;
+  background:
+    -webkit-gradient(linear,
+      left top, right top,
+      from(rgba(255, 0, 0, 1)),
+      color-stop(rgba(255, 0, 180, 1)),
+      to(rgba(0, 100, 200, 1)));
+  background:
+    -o-linear-gradient(left,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1));
   background:
     linear-gradient(to right,
       rgba(255, 0, 0, 1),

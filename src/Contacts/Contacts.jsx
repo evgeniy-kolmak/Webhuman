@@ -17,7 +17,7 @@ export default function Contacts() {
             <Form />
             <div className="contacts-wrapper-hero">
               <span className="square"></span>
-              <img className="hero-image-contact" src="/images/hero/hero-contacts.png" alt="image: hero-at-workplace" />
+              <img className="hero-image-contact" src="/images/hero/hero-contacts.webp" alt="image: hero-at-workplace" />
             </div>
           </div>
         </div>

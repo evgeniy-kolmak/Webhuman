@@ -5,7 +5,7 @@ export default function HeaderHero() {
 
     <div className="hero">
       <div className="set-background">
-        <img className="hero-image" src="images/hero/hero.png" alt="img:Hero" />
+        <img className="hero-image" src="images/hero/hero.webp" alt="img:Hero" />
       </div>
       <svg className="hard-skills sass">
         <use href="/images/sprite.svg#sass"></use>

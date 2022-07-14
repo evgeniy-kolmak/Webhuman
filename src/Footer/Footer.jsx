@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-wrapper">
           <div className="message-wrapper">
-            <img className='duck' src="/images/duck.png" alt="" />
+            <img className='duck' src="/images/duck.webp" alt="" />
             <div className="message">
               <span className="message-title">Остались вопросы? Спроси в чате!</span>
             </div>

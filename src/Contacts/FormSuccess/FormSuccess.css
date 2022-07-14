@@ -1,4 +1,6 @@
+/* FORM SUCCESS */
 .success-form {
+  background: -o-linear-gradient(348.44deg, #242424 1.56%, #212121 95.55%);
   background: linear-gradient(101.56deg, #242424 1.56%, #212121 95.55%);
   border-radius: 8px;
 
@@ -27,12 +29,21 @@
 }
 
 .promocode-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   background: #282828;
   height: 350px;
   width: 400px;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   border-radius: 16px;
   padding: 0 10px;
@@ -68,9 +79,17 @@
 
 
 .success-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   height: inherit;
   padding: 20px;
@@ -78,7 +97,6 @@
 
 .promocode {
   color: #eeac05;
-  width: min-content;
   font-weight: 494;
   font-size: 40px;
   line-height: 56px;
