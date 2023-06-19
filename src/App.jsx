@@ -10,12 +10,11 @@ import Sidebar from './Header/Sidebar/Sidebar';
 import './Responsive.css';
 import { MyProvider } from './Context';
 
-
 export default function App() {
   return (
     <div className="app" id="outer-container">
       <MyProvider>
-        <Sidebar pageWrapId='page-wrap' outerContainerId='outer-container' />
+        <Sidebar pageWrapId="page-wrap" outerContainerId="outer-container" />
         <div id="page-wrap">
           <HeaderTop />
           <Header />
@@ -28,5 +27,3 @@ export default function App() {
     </div>
   );
 }
-
-
