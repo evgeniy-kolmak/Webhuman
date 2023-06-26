@@ -1,7 +1,6 @@
-import './App.css';
+import './App.sass';
 import './Animation.css';
-import HeaderTop from './Header/HeaderTop';
-import Header from './Header/Header';
+import { Header } from './components/Header';
 import AboutMe from './AboutMe/AboutMe';
 import Portfolio from './Portfolio/Portfolio';
 import Contacts from './Contacts/Contacts';
@@ -16,7 +15,6 @@ export default function App() {
       <MyProvider>
         <Sidebar pageWrapId="page-wrap" outerContainerId="outer-container" />
         <div id="page-wrap">
-          <HeaderTop />
           <Header />
           <AboutMe />
           <Portfolio />
