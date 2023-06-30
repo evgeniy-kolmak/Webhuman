@@ -5,24 +5,27 @@ import { ReactComponent as Github } from 'assets/social_icons/github.svg';
 import { ReactComponent as Telegram } from 'assets/social_icons/telegram.svg';
 import { ReactComponent as Linkedin } from 'assets/social_icons/linkedin.svg';
 
-const links = [
-  {
-    href: 'https://vk.com/evgeniykolmak/',
-    icon: <Vk />,
-  },
-  { href: 'https://www.instagram.com/evgeniykolmak/', icon: <Instagram /> },
-  { href: 'https://github.com/evgeniy-kolmak/', icon: <Github /> },
-  { href: 'https://t.me/evgeniykolmak/', icon: <Telegram /> },
-  {
-    href: 'https://www.linkedin.com/in/evgeniy-kolmak-372b43227/',
-    icon: <Linkedin />,
-  },
-];
+export type SocialLinksProps = {
+  cn?: string;
+};
 
-export const SocialLinks = () => {
+export const SocialLinks = ({ cn }: SocialLinksProps) => {
+  const links = [
+    {
+      href: 'https://vk.com/evgeniykolmak/',
+      icon: <Vk />,
+    },
+    { href: 'https://www.instagram.com/evgeniykolmak/', icon: <Instagram /> },
+    { href: 'https://github.com/evgeniy-kolmak/', icon: <Github /> },
+    { href: 'https://t.me/evgeniykolmak/', icon: <Telegram /> },
+    {
+      href: 'https://www.linkedin.com/in/evgeniy-kolmak-372b43227/',
+      icon: <Linkedin />,
+    },
+  ];
   const { socialLinks, link } = styles;
   return (
-    <div className={socialLinks}>
+    <div className={[socialLinks, cn].join(' ')}>
       {links.map((item) => (
         <a
           key={item.href}

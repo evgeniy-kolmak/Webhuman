@@ -1,0 +1,47 @@
+.header
+  display: flex
+  align-items: center
+  justify-content: space-around
+  position: fixed
+  left: 0
+  top: 0
+  z-index: 10
+  width: 100%
+  height: 110px
+  transition: all .3s ease 0s
+
+.active
+  height: 85px
+  background-color: #242424
+
+.logo
+  fill: #e2a300
+  cursor: pointer
+  height: 42px
+  width: 42px
+
+@media ( max-width: 1024px  )
+  .logo
+    width: 38px
+    height: 38px
+    flex-grow: 0.5
+    transform: translateX(-35%)
+
+@media  ( max-width: 895px  )
+  .logo
+    width: 35px
+    height: 35px
+
+@media  ( max-width: 685px  )
+  .logo
+    width: 30px
+    height: 30px
+
+@media  ( max-width: 600px  )
+  .header
+    padding: 0 2.5rem
+    justify-content: space-between
+
+  .logo
+    flex-grow: 0
+    transform: none

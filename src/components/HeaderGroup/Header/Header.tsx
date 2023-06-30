@@ -2,8 +2,9 @@ import styles from './Header.module.sass';
 import { ReactComponent as Logo } from 'assets/logo.svg';
 import { Navigation } from '../Navigation';
 import { SocialLinks } from '../SocialLinks';
-import { Button } from '../Button';
+import { Button } from '../../Button';
 import { useState, useEffect } from 'react';
+import { Sidebar } from '../../Sidebar';
 
 export const Header = () => {
   const [isScroll, setIsScroll] = useState(false);
@@ -28,6 +29,7 @@ export const Header = () => {
         download={true}
         href="/images/Resume(Evgeniy_Kolmak)-RU.pdf"
       />
+      <Sidebar />
     </div>
   );
 };

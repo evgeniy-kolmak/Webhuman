@@ -2,8 +2,9 @@
   list-style: none
   display: flex
   align-items: center
-  justify-content: space-around
+  justify-content: space-evenly
   flex-basis: 40%
+  flex-grow: 0.25
 
 .link
   color: inherit
@@ -18,3 +19,8 @@
   .link:hover
     color: #ddbc69
     transition: all .4s ease 0s
+
+@media (max-width: 1024px)
+  .navigation
+    margin: 50px 0 40px 0
+    display: none
