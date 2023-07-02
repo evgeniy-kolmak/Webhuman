@@ -7,13 +7,31 @@
   flex-grow: 0.25
 
 .link
+  display: block
   color: inherit
   text-decoration: none
   font-size: 18px
   line-height: 21px
+  min-height: 26px
   font-weight: 300
   transition: all .4s ease 0s
   cursor: pointer
+
+.active
+  &::after
+    content: ''
+    display: block
+    height: 2px
+    background-color: #E2A300
+    width: 0
+    margin-top: 3px
+    animation: activelink .3s linear normal .35s forwards
+
+@keyframes activelink
+  0%
+    width: 0
+  100%
+    width: 100%
 
 @media (any-hover: hover)
   .link:hover
