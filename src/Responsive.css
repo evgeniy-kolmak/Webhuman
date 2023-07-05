@@ -1,55 +1,4 @@
 @media (any-hover: hover) {
-  .sass:hover {
-    background-color: #cc6699;
-    fill: #fff;
-    -webkit-transform: rotate(25deg);
-    -ms-transform: rotate(25deg);
-    transform: rotate(25deg);
-  }
-
-  .figma:hover {
-    background-color: #8652da;
-    fill: #fff;
-    -webkit-transform: rotate(25deg);
-    -ms-transform: rotate(25deg);
-    transform: rotate(25deg);
-  }
-
-  .js:hover {
-    background-color: #FFD700;
-    fill: #fff;
-    -webkit-transform: rotate(25deg);
-    -ms-transform: rotate(25deg);
-    transform: rotate(25deg);
-  }
-
-  .react:hover {
-    background-color: #61DAFB;
-    fill: #fff;
-    -webkit-transform: rotate(25deg);
-    -ms-transform: rotate(25deg);
-    transform: rotate(25deg);
-  }
-
-  .social-icon:hover {
-    fill: #fff;
-    -webkit-transition: all .4s ease 0s;
-    -o-transition: all .4s ease 0s;
-    transition: all .4s ease 0s;
-    -webkit-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    transform: translateY(-5px);
-
-  }
-
-  .list-item:hover {
-    -webkit-transition: all .4s ease 0s;
-    -o-transition: all .4s ease 0s;
-    transition: all .4s ease 0s;
-    color: #ddbc69;
-
-  }
-
   .to-top:hover {
     background: #dadada;
   }
@@ -122,43 +71,11 @@
 
 
 @media(max-width: 1200px) {
-  .container {
-    max-width: 960px;
-  }
+ 
 
   .list-items {
     -ms-flex-preferred-size: 45%;
     flex-basis: 45%;
-  }
-
-  .hello-container {
-    font-size: 40px;
-    left: -25px;
-  }
-
-  .hello-items {
-    padding-left: 190px;
-
-  }
-
-  .hello-container::before,
-  .hello-container::after {
-    font-size: 40px;
-    line-height: 50px;
-
-  }
-
-  .set-background {
-    width: 475px;
-    height: 475px;
-    border-width: 45px;
-  }
-
-
-
-  .hero-image {
-    max-width: 95%;
-    bottom: -50px;
   }
 
   .main {
@@ -312,19 +229,12 @@
 }
 
 @media(max-width: 1024px) {
-  .container {
-    max-width: 798px;
-  }
 
   .btn {
     padding: 13px 35px;
     font-size: 16px;
   }
 
-
-  .header {
-    padding-bottom: 50px;
-  }
 
   .logo {
     width: 38px;
@@ -338,13 +248,6 @@
 
   .hello-items {
     padding-left: 165px;
-  }
-
-
-  .set-background {
-    width: 370px;
-    height: 370px;
-    border-width: 35px;
   }
 
 
@@ -549,9 +452,6 @@
 }
 
 @media (max-width: 895px) {
-  .container {
-    max-width: 680px;
-  }
 
   .logo {
     width: 35px;
@@ -577,34 +477,6 @@
     font-size: 15px;
   }
 
-  .header {
-    padding-top: 130px;
-  }
-
-  .header-wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .main {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
-  }
-
-  .hero {
-    -ms-flex-item-align: end;
-    align-self: flex-end;
-    margin-right: 5%;
-
-  }
-
-  .hard-skills {
-    width: 85px;
-    height: 85px;
-
-  }
 
   .about-me-photo {
     display: none;
@@ -748,34 +620,8 @@
 }
 
 
-@media (max-width: 680px) {
-  .container {
-    max-width: 85%;
-  }
-
-  .logo {
-    width: 28px;
-    height: 28px;
-  }
-
-  .social-icon {
-    width: 20px;
-    height: 20px;
-  }
-
-  .bm-burger-button {
-    top: 12px;
-  }
-
-  .menu-wrapper {
-    height: 60px;
-  }
-
-
-  .main {
-    margin-bottom: 70px;
-  }
-
+@media (max-width: 685px) {
+ 
   .set-yellow {
     right: 10px;
   }
@@ -830,69 +676,6 @@
     right: 35px;
   }
 
-  .bm-burger-button {
-    width: 44px;
-    height: 38px;
-  }
-
-  .hero {
-    margin-right: 0;
-  }
-
-  .social {
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
-    -webkit-transform: translateX(-60%);
-    -ms-transform: translateX(-60%);
-    transform: translateX(-60%);
-  }
-
-  .hello-container {
-    font-size: 33px;
-
-  }
-
-
-  .hello-container::after {
-    right: 20px;
-  }
-
-
-  .main-title {
-    font-size: 50px;
-    line-height: 55px;
-  }
-
-  .main-description {
-    font-size: 16px;
-  }
-
-  .main-button {
-    padding: 12px 36px;
-    font-size: 15px;
-  }
-
-  .set-background {
-    border-width: 33px;
-  }
-
-  .sass {
-    top: -15px;
-    right: 270px;
-  }
-
-  .figma {
-    right: 347px;
-  }
-
-  .hero-image {
-    bottom: -83px;
-  }
-
-  .hard-skills {
-    width: 80px;
-    height: 80px;
-  }
 
   .section-title,
   .menu-title {
@@ -1020,109 +803,9 @@
   }
 
 
-  .social {
-    display: none;
-  }
-
-  .social--sidebar {
-    visibility: visible;
-    opacity: 1;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-    margin: 20px 0 40px 0;
-  }
-
-  .social-link--sidebar {
-    margin-right: 10px;
-
-
-  }
-
   .section-title,
   .menu-title {
     font-size: 28px;
-  }
-
-  .logo {
-    -webkit-transform: translateX(150%);
-    -ms-transform: translateX(150%);
-    transform: translateX(150%);
-  }
-
-  .menu-wrapper {
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: start;
-  }
-
-  .bm-burger-button {
-    top: 10px;
-  }
-
-  .hello-container {
-    font-size: 30px;
-    padding: 0 30px;
-
-  }
-
-  .hello-container::before,
-  .hello-container::after {
-    font-size: 35px;
-  }
-
-  .hello-container::after {
-    right: 60px;
-  }
-
-  .hello-items {
-    padding-left: 145px;
-  }
-
-  .main {
-    margin-bottom: 90px;
-  }
-
-  .main-title {
-    font-size: 44px;
-    line-height: 52px;
-  }
-
-  .hero-image {
-    width: 210px;
-    top: 14px;
-  }
-
-  .set-background {
-    border-width: 20px;
-    width: 300px;
-    height: 300px;
-  }
-
-  .hard-skills {
-    width: 75px;
-    height: 75px;
-  }
-
-  .sass {
-    top: -5px;
-    right: 240px;
-  }
-
-  .figma {
-    top: 100px;
-    right: 285px;
-  }
-
-  .js {
-    top: 200px;
-    right: 263px;
-  }
-
-  .react {
-    top: -10px;
-    left: 235px;
-    ;
   }
 
   .about-me-information {
@@ -1223,58 +906,11 @@
     height: 20px;
   }
 
-  .main {
-    max-width: 300px;
-    margin-bottom: 80px;
-  }
-
-  .hello-container {
-    font-size: 27px;
-    left: -10px;
-  }
-
-  .hello-items {
-    padding-left: 130px;
-  }
-
-
-  .hello-container::after {
-    right: 10px;
-  }
-
-  .set-background {
-    width: 220px;
-    height: 220px;
-  }
 
   .hero-image {
     top: 6px;
   }
 
-  .hard-skills {
-    width: 70px;
-    height: 70px;
-  }
-
-  .sass {
-    top: -25px;
-    right: 160px;
-  }
-
-  .figma {
-    top: 63px;
-    right: 205px;
-  }
-
-  .js {
-    top: 158px;
-    right: 178px;
-  }
-
-  .react {
-    top: -28px;
-    left: 159px;
-  }
 
   .about-me-information {
     width: 300px;
@@ -1349,13 +985,6 @@
     font-size: 22px;
   }
 
-  .hero-image-contact {
-    width: 255px;
-    height: 255px;
-    top: 32px;
-
-
-  }
 
   .contacts-wrapper-hero {
     -ms-flex-item-align: center;
