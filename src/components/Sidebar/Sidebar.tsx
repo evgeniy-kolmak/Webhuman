@@ -46,6 +46,7 @@ export const Sidebar = ({}: SidebarProps) => {
             <span className={styles['sidebar-title']}>Меню</span>
           </SectionTitle>
           <Navigation
+            handlePickItemMenu={handleMenu}
             cnLinks={styles['sidebar-links']}
             cnLink={styles['sidebar-link']}
           />

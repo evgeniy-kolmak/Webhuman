@@ -4,9 +4,14 @@ import { Link } from 'react-scroll';
 export type NavigationProps = {
   cnLinks?: string;
   cnLink?: string;
+  handlePickItemMenu: () => void;
 };
 
-export const Navigation = ({ cnLinks, cnLink }: NavigationProps) => {
+export const Navigation = ({
+  cnLinks,
+  cnLink,
+  handlePickItemMenu,
+}: NavigationProps) => {
   const menuItems = [
     { title: 'Главная', link: 'main' },
     { title: 'Обо мне', link: 'about' },
@@ -22,6 +27,7 @@ export const Navigation = ({ cnLinks, cnLink }: NavigationProps) => {
       {menuItems.map((item) => (
         <li className={cnLink} key={item.title}>
           <Link
+            onClick={handlePickItemMenu}
             className={link}
             spy={true}
             hashSpy={true}
