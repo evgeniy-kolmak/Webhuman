@@ -43,7 +43,7 @@ export const Sidebar = ({}: SidebarProps) => {
         <div className={styles['sidebar-content']}>
           <Close onClick={handleMenu} className={close} />
           <SectionTitle>
-            <span className={styles['sidebar-title']}>Меню</span>
+            <span>Меню</span>
           </SectionTitle>
           <Navigation
             handlePickItemMenu={handleMenu}
