@@ -2,6 +2,7 @@
   font-family: Montserrat, sans-serif
   color: #ffffff
   text-transform: uppercase
+  z-index: 1
   &::after
     content: ''
     display: block
@@ -21,3 +22,20 @@
     display: block
     text-align: right
     margin-top: 40px
+
+@media (max-width: 1200px)
+  .sectionTitle
+    & h2, span
+      font-size: 32px
+
+@media (max-width: 600px)
+  .sectionTitle
+    & h2, span
+      font-size: 30px
+
+@media (max-width: 495px)
+  .sectionTitle
+    &::after
+      width: 18em
+    & h2, span
+      font-size: 28px
