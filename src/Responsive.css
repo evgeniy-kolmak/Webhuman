@@ -71,90 +71,6 @@
 
 
 @media(max-width: 1200px) {
- 
-
-  .list-items {
-    -ms-flex-preferred-size: 45%;
-    flex-basis: 45%;
-  }
-
-  .main {
-    width: 425px;
-  }
-
-  .main-title {
-    font-size: 60px;
-    line-height: 70px;
-    margin: 20px 0;
-  }
-
-  .react {
-    left: 385px;
-  }
-
-  .sass {
-    top: 0;
-    right: 360px;
-  }
-
-  .figma {
-    bottom: 205px;
-    right: 440px;
-  }
-
-  .js {
-    right: 415px;
-  }
-
-  .about-me {
-    padding: 90px 0 100px 0;
-  }
-
-
-
-  .about-me-photo--1 {
-    top: 100px;
-    left: -25px;
-  }
-
-  .about-me-photo--2 {
-    bottom: -40px;
-    left: -25px;
-  }
-
-  .about-me-photo--3 {
-    top: 450px;
-    right: -25px;
-  }
-
-  .set-white {
-    border-width: 70px;
-    width: 600px;
-    height: 600px;
-  }
-
-  .set-yellow {
-    border-width: 30px;
-    width: 320px;
-    height: 320px;
-    top: 30px;
-    right: 150px;
-  }
-
-  .set-blue {
-    border-width: 45px;
-    width: 400px;
-    height: 400px;
-    right: 70px;
-    top: 670px;
-  }
-
-  .section-title,
-  .menu-title {
-    font-size: 32px;
-
-  }
-
   .portfolio-item {
     -ms-flex-preferred-size: 30%;
     flex-basis: 30%;
@@ -229,137 +145,9 @@
 }
 
 @media(max-width: 1024px) {
-
   .btn {
     padding: 13px 35px;
     font-size: 16px;
-  }
-
-
-  .logo {
-    width: 38px;
-    height: 38px;
-  }
-
-  .hello-container {
-    font-size: 35px;
-    left: -20px;
-  }
-
-  .hello-items {
-    padding-left: 165px;
-  }
-
-
-  .hero-image {
-    bottom: -87px;
-    max-width: 90%;
-  }
-
-  .main {
-    width: 380px;
-  }
-
-  .main-title {
-    font-size: 55px;
-    line-height: 65px;
-    margin: 10px 0;
-  }
-
-  .main-discription {
-    font-size: 16px;
-  }
-
-  .hard-skills {
-    width: 90px;
-    height: 90px;
-  }
-
-  .react {
-    left: 313px;
-  }
-
-  .sass {
-    top: -17px;
-    right: 275px;
-  }
-
-  .figma {
-    bottom: 165px;
-    right: 343px;
-  }
-
-  .js {
-    right: 315px;
-    bottom: 30px;
-  }
-
-
-
-  .bm-burger-button {
-    display: block;
-  }
-
-  .list-items {
-    display: none;
-  }
-
-  .menu-wrapper {
-    height: 85px;
-
-  }
-
-  .social {
-    -webkit-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-
-  .about-me {
-    padding-top: 100px;
-  }
-
-  .about-me-information {
-    font-size: 18px;
-    padding: 50px;
-    width: 455px;
-  }
-
-  .about-me-photo {
-    width: 240px;
-    height: 310px;
-  }
-
-  .about-me-photo--1,
-  .about-me-photo--2 {
-    left: -30px;
-  }
-
-  .about-me-photo--3 {
-    right: -30px;
-  }
-
-  .set-white {
-    border-width: 55px;
-    width: 550px;
-    height: 550px;
-    top: 245px;
-  }
-
-  .set-yellow {
-    border-width: 30px;
-    width: 275px;
-    height: 275px;
-    top: 185px;
-    right: 160px;
-  }
-
-  .set-blue {
-    border-width: 35px;
-    width: 400px;
-    height: 400px;
-    right: 90px;
-    top: 585px;
   }
 
   .portfolio-item {
@@ -452,64 +240,15 @@
 }
 
 @media (max-width: 895px) {
-
-  .logo {
-    width: 35px;
-    height: 35px;
-  }
-
-
-  .social {
-    -ms-flex-preferred-size: 22%;
-    flex-basis: 22%;
-    -webkit-transform: translateX(45%);
-    -ms-transform: translateX(45%);
-    transform: translateX(45%);
-  }
-
-  .social-icon {
-    width: 21px;
-    height: 21px;
-  }
-
   .btn {
     padding: 11px 32px;
     font-size: 15px;
-  }
-
-
-  .about-me-photo {
-    display: none;
-  }
-
-  .set-white {
-    border-width: 50px;
-    width: 500px;
-    height: 500px;
-  }
-
-  .set-yellow {
-    border-width: 25px;
-    width: 250px;
-    height: 250px;
-    right: 80px;
-    top: 60px;
-  }
-
-  .set-blue {
-    border-width: 35px;
-    width: 350px;
-    height: 350px;
-    right: 15px;
-    top: 575px;
   }
 
   .portfolio-item {
     width: 225px;
     height: 310px;
   }
-
-
 
   .contact-wrapper {
     -ms-flex-preferred-size: 100%;
@@ -621,10 +360,6 @@
 
 
 @media (max-width: 685px) {
- 
-  .set-yellow {
-    right: 10px;
-  }
 
   .portfolio-items {
     -ms-flex-wrap: wrap;
@@ -636,7 +371,6 @@
     -ms-flex-preferred-size: 45%;
     flex-basis: 45%;
   }
-
 
 
   .item {
@@ -671,40 +405,8 @@
 
 
 @media (max-width: 600px) {
-
   .to-top {
     right: 35px;
-  }
-
-
-  .section-title,
-  .menu-title {
-    font-size: 30px;
-  }
-
-  .set-white {
-    display: none;
-  }
-
-  .about-me-information {
-    font-size: 16px;
-    padding: 30px;
-    width: 420px;
-  }
-
-  .set-blue {
-    border-width: 25px;
-    width: 300px;
-    height: 300px;
-    right: 159px;
-    top: 660px;
-  }
-
-  .set-yellow {
-    border-width: 20px;
-    width: 250px;
-    height: 250px;
-
   }
 
   .portfolio {
@@ -802,17 +504,6 @@
     right: 25px;
   }
 
-
-  .section-title,
-  .menu-title {
-    font-size: 28px;
-  }
-
-  .about-me-information {
-    width: 370px;
-  }
-
-
   .portfolio-item {
     -ms-flex-preferred-size: 60%;
     flex-basis: 60%;
@@ -904,23 +595,6 @@
   .to-top-icon {
     width: 20px;
     height: 20px;
-  }
-
-
-  .hero-image {
-    top: 6px;
-  }
-
-
-  .about-me-information {
-    width: 300px;
-    padding: 30px;
-  }
-
-  .set-yellow,
-  .set-blue {
-    display: none;
-
   }
 
   .portfolio-item {

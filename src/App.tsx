@@ -1,8 +1,7 @@
 import './App.sass';
-import './Animation.css';
 import { Header } from './components/HeaderGroup/Header';
 import { Main } from './components/MainGroup/Main';
-import AboutMe from './AboutMe/AboutMe';
+import { About } from './components/AboutGroup/About';
 import Portfolio from './Portfolio/Portfolio';
 import Contacts from './Contacts/Contacts';
 import Footer from './Footer/Footer';
@@ -13,7 +12,7 @@ export default function App() {
     <div className="app">
       <Header />
       <Main />
-      <AboutMe />
+      <About />
       <Portfolio />
       <Contacts />
       <Footer />
