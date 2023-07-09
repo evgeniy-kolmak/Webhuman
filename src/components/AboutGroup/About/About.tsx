@@ -25,7 +25,7 @@ export const About = ({}: AboutProps) => {
           <div className={styles['about-content']}>
             <div className={styles['about-content-photo']}>
               {photo.map((item) => (
-                <div>
+                <div key={item.src}>
                   <img loading="lazy" src={item.src} alt={item.alt} />
                 </div>
               ))}
