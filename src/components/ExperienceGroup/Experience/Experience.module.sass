@@ -1,0 +1,113 @@
+$dev: #77b4e0
+$devBorder: #5884a3
+$layout: #c5def0
+$layoutBorder: #9caab5
+
+.experience
+  padding: 120px 0 70px 0
+  font-family: Montserrat, sans-serif
+  &-wrapper
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    & > p
+      align-self: center
+      font-size: 36px
+      margin-top: 60px
+  &-timeline
+    margin-top: 36px
+    &-event
+      display: flex
+      align-items: center
+      position: relative
+      left: 60px
+      filter: drop-shadow( -9px 13px 5px rgba(0, 0, 0, 0.20))
+      &::before
+        display: flex
+        align-items: center
+        content: ''
+        position: relative
+        border-radius: 50%
+        min-width: 80px
+        height: 80px
+        font-size: 40px
+        left: -3rem
+        z-index: 2
+      &-layout::before
+        background: $layout
+      &-layout::after
+        background: $layoutBorder
+      &-dev::before
+        background: $dev
+      &-dev::after
+        background: $devBorder
+      &-dev::before
+        background-image: url('images/dev.svg')
+        border: 2px solid $devBorder
+      &-layout::before
+        background-image: url('images/layout.svg')
+        border: 2px solid $layoutBorder
+      &-dev::before, &-layout::before
+        background-size: 37px 37px
+        background-repeat: no-repeat
+        background-position: center center
+      &:not(:last-child)::after
+        content: ''
+        width: 2px
+        height: 80px
+        position: relative
+        top: 60px
+        right: 70.75rem
+        z-index: 1
+    &-event:not(:last-child)
+      margin-bottom: 20px
+    &-icon
+      display: flex
+      align-items: center
+      justify-content: center
+      font-size: 24px
+      padding: 20px
+      max-width: 260px
+      flex-basis: 40%
+      border-radius: 8px 0 0 8px
+      color: #2d2d2d
+      font-weight: normal
+      height: 120px
+      &-dev
+        background: $dev
+      &-layout
+        background: $layout
+    &-content
+      font-size: 18px
+      padding: 20px
+      height: 120px
+      width: 65%
+      border-radius: 0 8px 8px 0
+      &-dev
+        border: 1px solid $dev
+      &-layout
+        border: 1px solid $layout
+      &-title
+        color: #fff
+        display: flex
+        align-items: center
+        margin-bottom: 10px
+        text-transform: uppercase
+        & span
+          display: flex
+        & span:first-child
+          font-size: 22px
+          font-weight: normal
+        & div
+          display: flex
+          align-items: center
+        & svg
+          width: 22px
+          height: 22px
+          fill: #e4e4e4
+          margin-left: 5px
+      &-description
+        color: inherit
+        font-size: 16px
+        font-family: Comfortaa, cursive
+        line-height: 22px
