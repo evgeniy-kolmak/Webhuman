@@ -15,11 +15,10 @@ export const Experience = ({}: ExperienceProps) => {
 
   const coll = [
     {
-      title: { position: 'Верстальщик', company: ' в cakeboost.com' },
+      title: { position: 'Верстальщик', company: 'в cakeboost.com' },
       description:
         'Исправление недочетов в верстке, разработка новых компонентов проекта,  работа с Legacy кодом, рефакторинг кода c jQuery  на Vue.js.',
       worktime: '04.2023 - сейчас',
-      iconPlace: '',
       iconTools: [
         { title: 'vue', icon: <Vue /> },
         { title: 'js', icon: <Javascript /> },
@@ -33,12 +32,11 @@ export const Experience = ({}: ExperienceProps) => {
     {
       title: {
         position: 'Фронтенд разработчик',
-        company: ' в biplane.ru (Prufen)',
+        company: 'в biplane.ru (Prufen)',
       },
       description:
         'Разработка клиентской части приложения (авторизованная и не авторизованная зона).',
       worktime: '02.2023 - сейчас',
-      iconPlace: '',
       iconTools: [
         { title: 'ts', icon: <Typescript /> },
         { title: 'react', icon: <React /> },
@@ -51,12 +49,11 @@ export const Experience = ({}: ExperienceProps) => {
     {
       title: {
         position: 'Фронтенд разработчик',
-        company: 'в freelance (kwork.ru)',
+        company: 'в freelance',
       },
       description:
         'Участие в разработке/доработке проектов на React.js, Typescript, нативный JavaScript, а так же верстка. ',
       worktime: '11.2022 - сейчас',
-      iconPlace: '',
       iconTools: [
         { title: 'ts', icon: <Typescript /> },
         { title: 'react', icon: <React /> },
@@ -105,7 +102,7 @@ export const Experience = ({}: ExperienceProps) => {
                     <span>{item.title.position}</span>
                     <span>&nbsp;{item.title.company}</span>
                     <div>
-                      {item.iconTools.map((item, i) => (
+                      {item.iconTools.map((item) => (
                         <span key={item.title}>{item.icon}</span>
                       ))}
                     </div>
