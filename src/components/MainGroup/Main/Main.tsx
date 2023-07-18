@@ -52,7 +52,7 @@ export const Main = ({}: MainProps) => {
           </div>
           <div className={styles['main-person']}>
             <div className={styles['main-person-circle']}>
-              <img src="assets/person/main.webp" alt="person" loading="lazy" />
+              <img src="images/person/main.webp" alt="person" loading="lazy" />
             </div>
             <div className={tools}>
               {toolsIcon.map((item) => (

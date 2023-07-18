@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 export type NavigationProps = {
   cnLinks?: string;
   cnLink?: string;
-  handlePickItemMenu: () => void;
+  handlePickItemMenu?: () => void;
 };
 
 export const Navigation = ({
